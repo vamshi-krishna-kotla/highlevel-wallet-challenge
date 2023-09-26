@@ -9,7 +9,7 @@ The project contains solution to the `HighLevel – Full Stack Dev Hiring Challe
 - Database: [MySQL](https://www.mysql.com/)
 
 The application is built on custom webpack configuration. The UI and API are hosted by the same server.
-
+Access the application on: https://vamshi-highlevel-wallet-challenge.onrender.com/
 
 ## API endpoints info
 ### Data fetching
