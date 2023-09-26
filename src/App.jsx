@@ -68,7 +68,8 @@ export default class App extends React.Component {
 				 */}
 				<Switch>
 					<Route path="/" exact>
-						<Home />
+						{/* pass prop to update state when new wallet is created */}
+						<Home onWalletCreated={ () => this.setState({ isWalletAvailable: true }) }/>
 					</Route>
 					<Route path="/transaction-details" exact>
 						<Transactions />

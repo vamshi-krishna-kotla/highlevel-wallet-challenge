@@ -239,6 +239,9 @@ export default class Home extends React.Component {
                     transactionDescription: ''
                 });
 
+                // trigger parent component handler to enable tabs
+                this.props.onWalletCreated();
+
                 notify('New wallet set up successfully!', 'success');
             } else {
                 // throw error if setup fails
