@@ -40,9 +40,14 @@ html, body {
 .dx-switch {
     .dx-switch-wrapper {
         .dx-switch-container {
+            background-color: $primary-color;
+
             .dx-switch-inner {
+                background-color: inherit;
+
                 .dx-switch-on, .dx-switch-off {
-                    color: $black-color;
+                    color: $text-color;
+                    background-color: inherit;
                 }
             }
         }
