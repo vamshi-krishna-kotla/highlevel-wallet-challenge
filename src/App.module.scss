@@ -1,0 +1,19 @@
+@import './scss/colors';
+
+.application {
+    .links-container {
+        background-color: $primary-color;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding: 1.5rem 25rem;
+        width: 100%;
+
+        .link {
+            color: $highlight-color;
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+    }
+}

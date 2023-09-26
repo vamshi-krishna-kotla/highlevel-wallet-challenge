@@ -1,0 +1,12 @@
+@import '../../scss/colors';
+
+#transactions-page-container {
+    .transactions-grid-container {
+        margin: 2% auto;
+        width: 80%;
+    }
+
+    .grid-disclaimer {
+        color: $disclaimer-color;
+    }
+}

@@ -1,0 +1,72 @@
+@import '../../scss/colors';
+
+#home-page-container {
+    width: 100%;
+
+    .wallet-details-and-transactions-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+
+        .wallet-details, .transaction-input-container {
+            background-color: $primary-color;
+            border-radius: 0.5rem;
+            border: 0.5px solid black;
+            color: $text-color;
+            padding: 1rem;
+            box-shadow: 1px 1px 0.5rem 1px $shadow-color;
+        }
+
+        .wallet-details {
+            width: 80%;
+
+            .wallet-details-title {
+                text-align: center;
+            }
+        }
+
+        .transaction-input-container {
+            width: 50%;
+
+            .transaction-input-title {
+                text-align: center;
+            }
+
+            .transaction-details {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .transaction-type-switch {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    .register-wallet-container {
+        background-color: $primary-color;
+        margin: 5% auto;
+        width: 30%;
+        color: $text-color;
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        border: 0.5px solid black;
+        box-shadow: 1px 1px 0.5rem 1px $shadow-color;
+
+        .register-wallet-title {
+            text-align: center;
+        }
+
+        .wallet-details {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1rem;
+        }
+    }
+}

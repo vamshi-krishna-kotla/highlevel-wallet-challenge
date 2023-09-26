@@ -1,0 +1,59 @@
+@import './colors';
+
+html, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    cursor: pointer;
+    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    padding: 0.5rem;
+
+    &:active {
+        transform: translateY(2px);
+    }
+
+    &:hover {
+        box-shadow: 1px 1px 0.5rem 1px rgba($color: $highlight-color, $alpha: 0.5);
+    }
+
+    &:focus {
+        box-shadow: 1px 1px 0.5rem 1px $highlight-color;
+    }
+}
+
+.dx-field {
+    font-size: 1rem;
+    width: 100%;
+    color: inherit;
+
+    .dx-field-label, .dx-field-value {
+        color: inherit;
+    }
+}
+
+
+.dx-switch {
+    .dx-switch-wrapper {
+        .dx-switch-container {
+            .dx-switch-inner {
+                .dx-switch-on, .dx-switch-off {
+                    color: $black-color;
+                }
+            }
+        }
+    }
+}
+
+.dx-datagrid {
+    .dx-datagrid-headers {
+        background-color: $primary-color;
+        color: $text-color;
+        font-size: 1rem;
+    }
+}
