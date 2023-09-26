@@ -30,7 +30,7 @@ html, body {
 .dx-field {
     font-size: 1rem;
     width: 100%;
-    color: inherit;
+    color: $text-color;
 
     .dx-field-label, .dx-field-value {
         color: inherit;
